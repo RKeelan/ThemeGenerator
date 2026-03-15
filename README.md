@@ -1,5 +1,7 @@
 # ThemeGenerator
 
+[![CI](https://github.com/RKeelan/ThemeGenerator/actions/workflows/ci.yml/badge.svg)](https://github.com/RKeelan/ThemeGenerator/actions/workflows/ci.yml)
+
 ThemeGenerator is a Bun and TypeScript CLI that derives a Monet-style color system from a source image and renders one consistent theme for multiple targets from one shared semantic model.
 
 ## Supported targets
