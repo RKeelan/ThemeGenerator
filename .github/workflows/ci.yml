@@ -31,6 +31,9 @@ jobs:
       - name: Lint
         run: bun run lint
 
+      - name: Lint package.json
+        run: bun run lint:pkg
+
       - name: Format check
         run: bun run format:check
 
