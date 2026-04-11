@@ -34,3 +34,7 @@ The CLI (`src/cli.ts`) uses Commander with two subcommands: `inspect` and `gener
 - Use `type` imports (`@typescript-eslint/consistent-type-imports` enforced)
 - Tests use `bun:test`; test helpers in `test/helpers.ts` create temp directories and synthetic images via Jimp
 - Bun is the runtime; all scripts invoke tools through `bun ./node_modules/...` rather than npx
+
+## Dependency Management
+
+Always pin dependencies to exact versions — no `^`, `~`, or bare package names. `.bunfmt` sets `save-exact=true` so `bun add` pins automatically. `bun.lock` must be committed.
