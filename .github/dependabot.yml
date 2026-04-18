@@ -5,3 +5,11 @@ updates:
     schedule:
       interval: "daily"
       time: "05:00"
+  - package-ecosystem: "bun"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      all-dependencies:
+        patterns:
+          - "*"
