@@ -12,7 +12,7 @@ export function hexWithAlpha(hex: HexColor, alpha: number): HexColor {
     .toString(16)
     .padStart(2, '0');
 
-  return `#${normalized}${suffix}` as HexColor;
+  return `#${normalized}${suffix}`;
 }
 
 export function normalizeHex(hex: string): HexColor {
