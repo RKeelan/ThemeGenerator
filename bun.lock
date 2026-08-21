@@ -13,7 +13,7 @@
         "@types/bun": "1.3.14",
         "eslint": "10.8.1",
         "eslint-config-prettier": "10.1.8",
-        "npm-package-json-lint": "10.5.1",
+        "npm-package-json-lint": "11.0.0",
         "prettier": "3.9.6",
         "typescript": "6.0.3",
         "typescript-eslint": "8.67.0",
@@ -355,7 +355,7 @@
 
     "normalize-package-data": ["normalize-package-data@3.0.3", "", { "dependencies": { "hosted-git-info": "^4.0.1", "is-core-module": "^2.5.0", "semver": "^7.3.4", "validate-npm-package-license": "^3.0.1" } }, "sha512-p2W1sgqij3zMMyRC067Dg16bfzVH+w7hyegmpIvZ4JNjqtGOVAIvLmjBx3yP7YTe9vKJgkoNOPjwQGogDoMXFA=="],
 
-    "npm-package-json-lint": ["npm-package-json-lint@10.5.1", "", { "dependencies": { "chalk": "4.1.2", "cosmiconfig": "10.0.0", "debug": "4.4.3", "globby": "11.1.0", "ignore": "5.3.2", "jsonc-parser": "3.3.1", "meow": "9.0.0", "minimatch": "10.2.6", "semver": "7.8.5", "strip-json-comments": "3.1.1", "type-fest": "5.8.0", "validate-npm-package-name": "8.0.0" }, "bin": { "npmPkgJsonLint": "dist/cli.js" } }, "sha512-KvphpY9PVN8Le6spIXH9LXdSPPiaeG6HBk/PRCmtOn8vY/gsnUpXCfFBZBRUpPMVjv7dsfCU2jOPao4ao3Z2Hg=="],
+    "npm-package-json-lint": ["npm-package-json-lint@11.0.0", "", { "dependencies": { "chalk": "4.1.2", "cosmiconfig": "10.0.0", "debug": "4.4.3", "globby": "11.1.0", "ignore": "5.3.2", "jsonc-parser": "3.3.1", "meow": "9.0.0", "minimatch": "10.2.6", "semver": "7.8.5", "strip-json-comments": "3.1.1", "type-fest": "5.8.0", "validate-npm-package-name": "8.0.0" }, "bin": { "npmPkgJsonLint": "dist/cli.js" } }, "sha512-XOFaxHM+TB9tK51Uj609kA1iA87cJe/VNCv/5INLCDbM///KpZpIai+t9LRRyOzvkd62j0JEWKSJeDUlzOSG6Q=="],
 
     "omggif": ["omggif@1.0.10", "", {}, "sha512-LMJTtvgc/nugXj0Vcrrs68Mn2D1r0zf630VNtqtpI1FEO7e+O9FP4gqs9AcnBaSEeoHIPm28u6qgPR0oyEpGSw=="],
 
