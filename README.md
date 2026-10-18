@@ -42,6 +42,7 @@ Targets:
 
 ```bash
 bun run lint
+bun check
 bun test
 bun run build
 ```

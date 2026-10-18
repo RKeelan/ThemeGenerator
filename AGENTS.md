@@ -11,7 +11,7 @@ bun install              # install dependencies
 bun test                 # run all tests
 bun test test/core/theme-generator.test.ts  # run a single test file
 bun run lint             # ESLint (--max-warnings=0)
-bun run check            # TypeScript type-check (tsc --noEmit)
+bun check                # type-check with Bun's built-in checker
 bun run format           # Prettier auto-format
 bun run format:check     # Prettier check only
 bun run build            # bundle to dist/
@@ -34,7 +34,8 @@ The CLI (`src/cli.ts`) uses Commander with two subcommands: `inspect` and `gener
 - Use `type` imports (`@typescript-eslint/consistent-type-imports` enforced)
 - Tests use `bun:test`; test helpers in `test/helpers.ts` create temp directories and synthetic images via Jimp
 - Bun is the runtime; all scripts invoke tools through `bun ./node_modules/...` rather than npx
+- `bun check` applies the TypeScript 7 rules built into Bun; the `typescript` package is held at 6.x for ESLint's type-aware rules and editors, so an editor can disagree with `bun check`
 
 ## Dependency Management
 
-Always pin dependencies to exact versions — no `^`, `~`, or bare package names. `.bunfmt` sets `save-exact=true` so `bun add` pins automatically. `bun.lock` must be committed.
+Always pin dependencies to exact versions — no `^`, `~`, or bare package names. `bunfig.toml` sets `exact = true` under `[install]` so `bun add` pins automatically. `bun.lock` must be committed.
