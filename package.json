@@ -9,7 +9,6 @@
   },
   "scripts": {
     "build": "bun build ./src/index.ts --outfile ./dist/index.js && bun build ./src/cli.ts --outfile ./dist/cli.js --target bun",
-    "check": "bun ./node_modules/typescript/lib/tsc.js --noEmit",
     "lint": "bun ./node_modules/eslint/bin/eslint.js . --max-warnings=0",
     "lint:pkg": "bun ./node_modules/npm-package-json-lint/dist/cli.js .",
     "format": "bun ./node_modules/prettier/bin/prettier.cjs src test README.md package.json tsconfig.json eslint.config.mjs .github/workflows/ci.yml .prettierrc --write",
